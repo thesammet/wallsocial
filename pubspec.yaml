@@ -1,0 +1,71 @@
+name: wallSocial
+description: Share your wallpapers.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  #Firebase
+  firebase_core: ^0.7.0
+  firebase_auth: ^0.20.0+1
+  cloud_firestore: ^0.16.0
+  firebase_storage: ^7.0.0
+  firebase_database: ^6.0.0
+  firebase_messaging: 
+
+  shared_preferences: ^0.5.12+4
+  image_picker: 0.6.7+22
+  cached_network_image: ^2.5.0
+  provider: ^4.3.3
+  flutter_native_image: ^0.0.5
+  adobe_xd: ^1.1.0+1
+  video_player: ^1.0.1
+  persistent_bottom_nav_bar: ^3.1.0
+  fluttertoast: ^7.1.6
+  google_sign_in: ^4.5.9
+  top_snackbar_flutter: ^0.0.3
+  admob_flutter: ^1.0.1
+  url_launcher: 
+  font_awesome_flutter: ^8.11.0
+  image_gallery_saver: 
+  flutter_svg: 
+
+  #ALL NEW 
+  flutter_staggered_grid_view:
+
+  #IMAGE DETAİL
+  flutter_easyloading:
+  esys_flutter_share: ^1.0.2
+  permission: ^0.1.7
+
+  #IMAGE DOWNLOAD
+  permission_handler: 
+  random_string: ^2.1.0
+  dio: 
+
+  #WALLPAPER 
+  wallpaper_manager: ^1.0.10
+  flutter_cache_manager:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - lib/assets/
+
+  uses-material-design: true
+
+  
